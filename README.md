@@ -12,3 +12,9 @@ From Binary
 
 	docker pull juanjmerono/basic
 	docker run -d -p 3000:3000 -p 3001:3001 juanjmerono/basic
+
+Manually Run/Modify
+
+	docker run -i -t -p 3000:3000 -p 3001:3001 juanjmerono/basic /bin/bash
+	#mongod & grunt
+	

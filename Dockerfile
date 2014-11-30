@@ -13,6 +13,9 @@ RUN echo 'deb http://downloads-distro.mongodb.org/repo/debian-sysvinit dist 10ge
 # Update apt-get sources AND install MongoDB
 RUN apt-get update && apt-get install -y mongodb-org=2.6.1 mongodb-org-server=2.6.1 mongodb-org-shell=2.6.1 mongodb-org-mongos=2.6.1 mongodb-org-tools=2.6.1
 
+# Install nano editor
+RUN apt-get install nano
+
 # Create the MongoDB data directory
 RUN mkdir -p /data/db
 
