@@ -18,3 +18,7 @@ Manually Run/Modify
 	docker run -i -t -p 3000:3000 -p 3001:3001 juanjmerono/basic /bin/bash
 	#mongod & grunt
 	
+Proxy
+
+	proxy.js - Allows access to docker container from outside docker host
+	
