@@ -3,7 +3,7 @@
 #
 FROM       node:0.10.33
 
-MAINTAINER juanjmerono <yoan.yo@gmail.com>
+MAINTAINER juanjmerono <yoan.yo at gmail.com>
 
 # Installation:
 # Import MongoDB public GPG key AND create a MongoDB list file
